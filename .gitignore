@@ -1,0 +1,6 @@
+.pytest_cache
+.DS_Store
+__pycache__
+/reports/allure-results
+/reports/assets
+/reports/report.html 
