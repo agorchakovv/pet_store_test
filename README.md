@@ -12,9 +12,11 @@ Install requirements.txt (pip install -r requirements.txt)
 Run tests: pytest -v -rP ./tests
 
 Run tests with docs html: pytest --html=reports/report.html -v -rP ./tests
+
 To view the documentation you need to open the file report.html
 
 Run tests with docs allure: pytest --alluredir=reports/allure-results -v -rP ./tests
+
 Generate docs: allure serve reports/allure-results
 
 
